@@ -9,11 +9,11 @@
       "motivation": "commenting",
       "body": {
         "type": "TextualBody",
-        "value": "(付記) 」 最近松枝茂夫先生にお眼にかかる機会があって伺ったところでは、東京帝国大学助教\n授に発令されたのは二十二年四月州日附、また辞任の発令は翌二十三年十月州日附で、一年有半在職\nした。『六朝文契』は二十三年度の演習のテキストに選んだが、その年度は六月頃まで授業をしたあ\nと九州へ引揚げたと思う、とのお話であった。補正しておく。",
+        "value": "(付記) 」 最近松枝茂夫先生にお眼にかかる機会があって伺ったところでは、東京帝国大学助教授に発令されたのは二十二年四月州日附、また辞任の発令は翌二十三年十月州日附で、一年有半在職した。『六朝文契』は二十三年度の演習のテキストに選んだが、その年度は六月頃まで授業をしたあと九州へ引揚げたと思う、とのお話であった。補正しておく。",
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/docs/manifest_referenced/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
           "value": "xywh=1556,86,175,1129"
