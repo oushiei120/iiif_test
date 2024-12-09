@@ -14,7 +14,6 @@
       "height": 1298,
       "width": 1850,
       "label": { "ja": ["随意"] },
-      "behavior": ["commenting"],
       "items": [
         {
           "id": "https://oushiei120.github.io/iiif_test/docs/page/p1/1",
