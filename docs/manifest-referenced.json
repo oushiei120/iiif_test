@@ -17,7 +17,7 @@
       "behavior": ["commenting"],
       "items": [
         {
-          "id": "https://oushiei120.github.io/iiif_test/docs/annotation-page/p1",
+          "id": "https://oushiei120.github.io/iiif_test/docs/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
