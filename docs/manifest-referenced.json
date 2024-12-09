@@ -1,12 +1,11 @@
 {
-  "@context": "https://iiif.io/api/presentation/3/context.json",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://oushiei120.github.io/iiif_test/docs/manifest-referenced.json",
   "type": "Manifest",
   "label": { 
     "ja": ["test1"],
     "en": ["test1"]
   },
-  "behavior": ["paged"],
   "items": [
     {
       "id": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
@@ -14,7 +13,6 @@
       "height": 1298,
       "width": 1850,
       "label": { "ja": ["随意"] },
-      "behavior": ["commenting"],
       "items": [
         {
           "id": "https://oushiei120.github.io/iiif_test/docs/page/p1/1",
