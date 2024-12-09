@@ -13,7 +13,7 @@
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/manifest_referenced/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
           "value": "xywh=1556,86,175,1129"

@@ -9,7 +9,7 @@
   "behavior": ["paged"],
   "items": [
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/manifest_referenced/canvas/p1",
+      "id": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
       "type": "Canvas",
       "height": 1298,
       "width": 1850,
@@ -31,7 +31,7 @@
                 "height": 1298,
                 "width": 1850
               },
-              "target": "https://oushiei120.github.io/iiif_test/docs/manifest_referenced/canvas/p1"
+              "target": "https://oushiei120.github.io/iiif_test/docs/canvas/p1"
             }
           ]
         }
