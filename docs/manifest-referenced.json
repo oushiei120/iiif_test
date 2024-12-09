@@ -1,5 +1,5 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@context": "https://iiif.io/api/presentation/3/context.json",
   "id": "https://oushiei120.github.io/iiif_test/docs/manifest-referenced.json",
   "type": "Manifest",
   "label": { 
