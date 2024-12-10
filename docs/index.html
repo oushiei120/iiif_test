@@ -36,14 +36,14 @@
     <div class="header">
         <h1>IIIF 注释示例 v1.9.3</h1>
     </div>
-    <div id="viewer" style="width: 900px; height: 900px;"></div>
+    <div id="viewer"></div>
 
     <script type="text/javascript">
         var mirador = Mirador.viewer({
             id: "viewer",
             windows: [
                 {
-                    manifestId: 'https://oushiei120.github.io/iiif_test/docs/manifest-referenced.json',
+                    manifestId: './manifest-referenced.json',
                     allowClose: true,
                     allowFullscreen: true,
                     allowMaximize: true,

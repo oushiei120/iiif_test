@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://oushiei120.github.io/iiif_test/docs/manifest-referenced.json",
+  "id": "./manifest-referenced.json",
   "type": "Manifest",
   "label": { 
     "ja": ["test1"],
@@ -9,35 +9,35 @@
   "behavior": ["paged"],
   "items": [
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+      "id": "./canvas/p1",
       "type": "Canvas",
       "height": 1298,
       "width": 1850,
       "label": { "ja": ["随意"] },
       "items": [
         {
-          "id": "https://oushiei120.github.io/iiif_test/docs/page/p1/1",
+          "id": "./page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://oushiei120.github.io/iiif_test/docs/annotation/p1-image",
+              "id": "./annotation/p1-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://oushiei120.github.io/iiif_test/docs/images/page1.png",
+                "id": "./images/page1.png",
                 "type": "Image",
                 "format": "image/png",
                 "height": 1298,
                 "width": 1850
               },
-              "target": "https://oushiei120.github.io/iiif_test/docs/canvas/p1"
+              "target": "./canvas/p1"
             }
           ]
         }
       ],
       "annotations": [
         {
-          "id": "https://oushiei120.github.io/iiif_test/docs/annotation1.json",
+          "id": "./annotation1.json",
           "type": "AnnotationPage"
         }
       ]
