@@ -1,10 +1,10 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://oushiei120.github.io/iiif_test/docs/annotation1.json",
+  "id": "https://oushiei120.github.io/iiif_test/annotation1.json",
   "type": "AnnotationPage",
   "items": [
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/annotation/p1-text-1",
+      "id": "https://oushiei120.github.io/iiif_test/annotation/p1-text-1",
       "type": "Annotation",
       "motivation": "transcribing",
       "body": {
@@ -14,15 +14,16 @@
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=1556,86,175,1129"
         }
       }
     },
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/annotation/p1-text-2",
+      "id": "https://oushiei120.github.io/iiif_test/annotation/p1-text-2",
       "type": "Annotation",
       "motivation": "transcribing",
       "body": {
@@ -32,15 +33,16 @@
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=1466,88,69,1121"
         }
       }
     },
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/annotation/p1-text-3",
+      "id": "https://oushiei120.github.io/iiif_test/annotation/p1-text-3",
       "type": "Annotation",
       "motivation": "transcribing",
       "body": {
@@ -50,15 +52,16 @@
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=781,152,38,434"
         }
       }
     },
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/annotation/p1-text-4",
+      "id": "https://oushiei120.github.io/iiif_test/annotation/p1-text-4",
       "type": "Annotation",
       "motivation": "transcribing",
       "body": {
@@ -68,15 +71,16 @@
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=1409,984,28,199"
         }
       }
     },
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/annotation/p1-text-5",
+      "id": "https://oushiei120.github.io/iiif_test/annotation/p1-text-5",
       "type": "Annotation",
       "motivation": "transcribing",
       "body": {
@@ -86,15 +90,16 @@
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=1361,905,30,278"
         }
       }
     },
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/annotation/p1-text-6",
+      "id": "https://oushiei120.github.io/iiif_test/annotation/p1-text-6",
       "type": "Annotation",
       "motivation": "transcribing",
       "body": {
@@ -104,33 +109,35 @@
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=736,284,35,692"
         }
       }
     },
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/annotation/p1-text-7",
+      "id": "https://oushiei120.github.io/iiif_test/annotation/p1-text-7",
       "type": "Annotation",
       "motivation": "transcribing",
       "body": {
         "type": "TextualBody",
-        "value": "人間と生まれたからには、生のシルシを世に遺すべきだ––こういう趣旨のことばを、著者増田渉\n教授の口から聞いたおばえがある。受業生の一人である筆者–––二十年前、わたくしは東京大学の中\n国文学科の学生であり、そのころ教授は現在のわたくしほどの年輩で、非常勤講師として現代文学を\n講じていた––––に対しての教訓というではなく、教授は自身に言い聞かせているふうであった。たし\nか五、六年前、心臓の大患後の回復期のことであったと思う。",
+        "value": "人間と生まれたからには、生のシルシを世に遺すべきだ––こういう趣旨のことばを、著者増田渉\n教授の口から聞いたおばえがある。受業生の一人である筆者–––二十年前、わたくしは東京大学の中\n国文学科の学生であり、そのころ教授は現在のわたくしほどの年輩で、非常勤講師として現代文学を\n講じていた––––に対しての教訓というではなく、教授は自身に言い聞かせているふうであった。かし\nか五、六年前、心臓の大患後の回復期のことであったと思う。",
         "format": "text/plain",
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=452,79,225,1123"
         }
       }
     },
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/annotation/p1-text-8",
+      "id": "https://oushiei120.github.io/iiif_test/annotation/p1-text-8",
       "type": "Annotation",
       "motivation": "transcribing",
       "body": {
@@ -140,15 +147,16 @@
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=124,77,315,1123"
         }
       }
     },
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/annotation/p1-text-9",
+      "id": "https://oushiei120.github.io/iiif_test/annotation/p1-text-9",
       "type": "Annotation",
       "motivation": "transcribing",
       "body": {
@@ -158,15 +166,16 @@
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=155,1223,302,23"
         }
       }
     },
     {
-      "id": "https://oushiei120.github.io/iiif_test/docs/annotation/p1-text-10",
+      "id": "https://oushiei120.github.io/iiif_test/annotation/p1-text-10",
       "type": "Annotation",
       "motivation": "transcribing",
       "body": {
@@ -176,9 +185,10 @@
         "language": "ja"
       },
       "target": {
-        "source": "https://oushiei120.github.io/iiif_test/docs/canvas/p1",
+        "source": "https://oushiei120.github.io/iiif_test/canvas/p1",
         "selector": {
           "type": "FragmentSelector",
+          "conformsTo": "http://www.w3.org/TR/media-frags/",
           "value": "xywh=1718,1239,23,18"
         }
       }

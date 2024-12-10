@@ -34,55 +34,33 @@
 </head>
 <body>
     <div class="header">
-        <h1>IIIF 注释示例 v1.9.7/h1>
+        <h1>IIIF 注释示例 v1.9.8</h1>
     </div>
     <div id="viewer"></div>
 
     <script type="text/javascript">
         var mirador = Mirador.viewer({
             id: "viewer",
-            windows: [
-                {
-                    manifestId: 'https://oushiei120.github.io/iiif_test/manifest-referenced.json',
-                    allowClose: true,
-                    allowFullscreen: true,
-                    allowMaximize: true,
-                    defaultView: 'single',
-                    defaultSideBarPanel: 'annotations',
-                    sideBarOpenByDefault: true,
-                    annotations: {
-                        visible: true,
-                        displayAll: true
-                    }
-                }
-            ],
-            window: {
-                allowClose: false,
+            windows: [{
+                manifestId: 'https://oushiei120.github.io/iiif_test/manifest-referenced.json',
+                allowClose: true,
                 allowFullscreen: true,
                 allowMaximize: true,
-                sideBarOpen: true,
+                defaultView: 'single',
                 defaultSideBarPanel: 'annotations',
-                views: [
-                    { key: 'single' }
-                ],
+                defaultSideBarOpen: true,
+                highlightAllAnnotations: true,
                 annotations: {
                     visible: true,
                     displayAll: true
                 }
-            },
-            workspace: {
-                type: 'mosaic',
-                showZoomControls: true,
-            },
-            workspaceControlPanel: {
-                enabled: true,
-            },
-            theme: {
-                palette: {
-                    primary: {
-                        main: '#1967d2'
-                    }
-                }
+            }],
+            window: {
+                allowClose: false,
+                allowMaximize: false,
+                defaultSideBarPanel: 'annotations',
+                sideBarOpenByDefault: true,
+                highlightAllAnnotations: true
             }
         });
     </script>
